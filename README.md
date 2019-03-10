@@ -1,5 +1,9 @@
 # Bountiful Children's Foundation Coordinator Storytelling Landing Pages
 
+REACT APP: https://coordinator-storytelling.netlify.com/
+
+API: https://coordinator-storytelling-api.herokuapp.com/
+
 Pitch: The Bountiful Children's Foundation needs a way to collect success stories from 15 different countries, rather than losing them through email, facebook messages, etc.
 
 MVP Feature Breakdown: This app contains two user types. A coordinator and a donor.
