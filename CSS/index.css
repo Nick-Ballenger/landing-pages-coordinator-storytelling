@@ -304,6 +304,7 @@ footer a {
   border-radius: 8px;
 }
 .bottomcontent h2 {
+  text-align: center;
   margin-bottom: 20px;
 }
 .bottomcontent img {
