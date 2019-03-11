@@ -177,21 +177,20 @@ body {
   }
 }
 header {
+  background-image: url("https://i.imgur.com/XfL1FH0.jpg");
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   border-bottom: 2px solid #39393A;
-  background-image: url("https://imgur.com/vF93JAf");
 }
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 25px 2px;
+  margin: 25px 10px;
 }
 @media (max-width: 500px) {
   header nav {
@@ -210,7 +209,7 @@ header nav a {
 @media (max-width: 500px) {
   header nav a {
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid #39393A;
     width: 100%;
     text-align: center;
   }
@@ -225,7 +224,7 @@ header nav button {
   background-color: #ED9728;
   border-radius: 4px;
   font-size: 2rem;
-  padding: 10px 30px;
+  padding: 10px 40px;
   color: white;
 }
 header h1 {
@@ -261,7 +260,6 @@ footer a {
   margin-bottom: 80px;
   margin-top: 45px;
   background: white;
-  border: 2px solid #39393A;
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -280,7 +278,7 @@ footer a {
 @media (max-width: 500px) {
   .banner img {
     width: 95%;
-    margin-top: 20px;
+    margin: 20px;
   }
 }
 .banner img:hover {
@@ -319,6 +317,7 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
   border-radius: 8px;
   background: -moz-linear-gradient(90deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
   /* ff3.6+ */
@@ -344,6 +343,7 @@ footer a {
   }
 }
 .midcontent .card h2 {
+  color: black;
   padding-top: 40px;
   margin-bottom: 20px;
 }
@@ -372,6 +372,14 @@ footer a {
   margin: 20px;
   padding: 15px;
 }
+.midcontent .card button {
+  background-color: #85FFC7;
+  border-radius: 4px;
+  font-size: 2rem;
+  padding: 10px 40px;
+  color: black;
+  margin-bottom: 30px;
+}
 .bottomcontent {
   display: flex;
   justify-content: center;
@@ -379,12 +387,25 @@ footer a {
   justify-content: space-between;
   flex-direction: column;
   margin: 50px 20px;
-  background: white;
+  background: -moz-linear-gradient(90deg, #85ffc7 0%, #85ffc7 50%, #ffffff 53%, #ffffff 99%, #ffffff 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(1%, #ffffff), color-stop(47%, #ffffff), color-stop(50%, #85ffc7), color-stop(100%, #85ffc7));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(90deg, #85ffc7 0%, #85ffc7 50%, #ffffff 53%, #ffffff 99%, #ffffff 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(90deg, #85ffc7 0%, #85ffc7 50%, #ffffff 53%, #ffffff 99%, #ffffff 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #85ffc7 0%, #85ffc7 50%, #ffffff 53%, #ffffff 99%, #ffffff 100%);
+  /* ie10+ */
+  background: linear-gradient(0deg, #85ffc7 0%, #85ffc7 50%, #ffffff 53%, #ffffff 99%, #ffffff 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#85FFC7', GradientType=0);
+  /* ie6-9 */
   border-radius: 8px;
 }
 .bottomcontent h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 .bottomcontent img {
   width: 90%;
@@ -400,4 +421,12 @@ footer a {
   border-radius: 4px;
   margin: 20px;
   padding: 15px;
+}
+.bottomcontent button {
+  background-color: #ED9728;
+  border-radius: 4px;
+  font-size: 2rem;
+  padding: 10px 40px;
+  color: white;
+  margin-bottom: 30px;
 }
