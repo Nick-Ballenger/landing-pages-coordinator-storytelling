@@ -193,6 +193,12 @@ header nav {
   align-items: center;
   margin: 25px 2px;
 }
+@media (max-width: 500px) {
+  header nav {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 header nav a {
   text-decoration: none;
   font-size: 2rem;
@@ -200,6 +206,14 @@ header nav a {
   background: #85FFC7;
   border-radius: 8px;
   padding: 10px;
+}
+@media (max-width: 500px) {
+  header nav a {
+    margin: 10px;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+  }
 }
 header nav a a:hover {
   background: #ED9728;
@@ -210,8 +224,9 @@ header nav a:hover {
 header nav button {
   background-color: #ED9728;
   border-radius: 4px;
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 10px 30px;
+  color: white;
 }
 header h1 {
   margin-bottom: 20px;
@@ -220,6 +235,12 @@ header img {
   opacity: 0.8;
   width: 15%;
   height: 15%;
+}
+@media (max-width: 500px) {
+  header img {
+    width: 75%;
+    height: 75%;
+  }
 }
 footer {
   display: flex;
@@ -243,10 +264,24 @@ footer a {
   border: 2px solid #39393A;
   border-radius: 8px;
 }
+@media (max-width: 500px) {
+  .banner {
+    width: 95%;
+    flex-direction: column;
+    border: none;
+    margin: 10px;
+  }
+}
 .banner img {
   width: 70%;
   height: 70%;
   opacity: 0.8;
+}
+@media (max-width: 500px) {
+  .banner img {
+    width: 95%;
+    margin-top: 20px;
+  }
 }
 .banner img:hover {
   opacity: 1;
@@ -258,6 +293,11 @@ footer a {
   margin: 20px;
   padding: 20px;
 }
+@media (max-width: 500px) {
+  .banner h1 {
+    text-align: center;
+  }
+}
 .midcontent {
   display: flex;
   justify-content: center;
@@ -265,20 +305,59 @@ footer a {
   justify-content: space-between;
   margin: 20px;
 }
+@media (max-width: 500px) {
+  .midcontent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+  }
+}
 .midcontent .card {
   width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: white;
+  background: -moz-linear-gradient(90deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafeff), color-stop(35%, #fafeff), color-stop(36%, #ed9728), color-stop(50%, #ed9728));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(90deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(90deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
+  /* ie10+ */
+  background: linear-gradient(0deg, #ed9728 50%, #ed9728 64%, #fafeff 65%, #fafeff 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFEFF', endColorstr='#ED9728', GradientType=0);
+  /* ie6-9 */
+}
+@media (max-width: 500px) {
+  .midcontent .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.midcontent .card h2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
 .midcontent .card img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px;
   opacity: 0.8;
+}
+@media (max-width: 500px) {
+  .midcontent .card img {
+    width: 90%;
+  }
 }
 .midcontent .card img:hover {
   opacity: 1;
