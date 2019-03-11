@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: #85FFC7;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #39393A;
+  background-image: url("https://imgur.com/vF93JAf");
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 2px;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #39393A;
+}
+header nav button {
+  background-color: #FF8552;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  padding: 10px 30px;
+}
+header h1 {
+  margin-bottom: 20px;
+}
+header img {
+  width: 15%;
+  height: 15%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #39393A;
+}
+footer a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #39393A;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  background: rgba(230, 230, 230, 0.5);
+  border: 2px solid #39393A;
+  border-radius: 8px;
+}
+.banner img {
+  width: 70%;
+  height: 70%;
+}
+.banner p {
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 133, 82, 0.9);
+  box-shadow: 1px 2px;
+}
+.midcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.midcontent .card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: #e6e6e6;
+}
+.midcontent .card img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.midcontent .card h1 {
+  text-align: center;
+}
+.midcontent .card p {
+  border-radius: 4px;
+  margin: 20px;
+  padding: 15px;
+  background: rgba(255, 133, 82, 0.9);
+  box-shadow: 1px 2px;
+}
+.bottomcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 50px 20px;
+  border-radius: 8px;
+  background: #e6e6e6;
+}
+.bottomcontent h2 {
+  margin-bottom: 20px;
+}
+.bottomcontent img {
+  width: 90%;
+  margin: 35px 20px;
+}
+.bottomcontent p {
+  border-radius: 4px;
+  box-shadow: 1px 2px;
+  margin: 20px;
+  padding: 15px;
+  background: rgba(255, 133, 82, 0.9);
+}
