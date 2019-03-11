@@ -233,8 +233,7 @@ footer a {
 .banner {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin: 20px;
   background: rgba(230, 230, 230, 0.5);
   border: 2px solid #39393A;
   border-radius: 8px;
@@ -244,9 +243,11 @@ footer a {
   height: 70%;
 }
 .banner p {
-  margin-left: 30px;
-  width: 28%;
-  height: 100%;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 133, 82, 0.9);
+  box-shadow: 1px 2px;
 }
 .midcontent {
   display: flex;
@@ -260,9 +261,8 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #39393A;
   border-radius: 8px;
-  background: rgba(230, 230, 230, 0.5);
+  background: #e6e6e6;
 }
 .midcontent .card img {
   width: 100%;
@@ -273,6 +273,13 @@ footer a {
 .midcontent .card h1 {
   text-align: center;
 }
+.midcontent .card p {
+  border-radius: 4px;
+  margin: 20px;
+  padding: 15px;
+  background: rgba(255, 133, 82, 0.9);
+  box-shadow: 1px 2px;
+}
 .bottomcontent {
   display: flex;
   justify-content: center;
@@ -280,14 +287,20 @@ footer a {
   justify-content: space-between;
   flex-direction: column;
   margin: 50px 20px;
-  border-bottom: 2px solid #39393A;
-  border: 2px solid #39393A;
   border-radius: 8px;
-  background: rgba(230, 230, 230, 0.5);
+  background: #e6e6e6;
 }
 .bottomcontent h2 {
   margin-bottom: 20px;
 }
 .bottomcontent img {
-  margin-bottom: 35px;
+  width: 90%;
+  margin: 35px 20px;
+}
+.bottomcontent p {
+  border-radius: 4px;
+  box-shadow: 1px 2px;
+  margin: 20px;
+  padding: 15px;
+  background: rgba(255, 133, 82, 0.9);
 }
