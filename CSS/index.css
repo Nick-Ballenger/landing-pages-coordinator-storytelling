@@ -164,7 +164,7 @@ img {
   height: auto;
 }
 body {
-  background-color: #85FFC7;
+  background-color: #E6E6E6;
 }
 .container {
   max-width: 1024px;
@@ -175,13 +175,6 @@ body {
   .container {
     width: 100%;
   }
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 header {
   display: flex;
@@ -204,9 +197,12 @@ header nav a {
   text-decoration: none;
   font-size: 2rem;
   color: #39393A;
+  background: #85FFC7;
+  border-radius: 8px;
+  padding: 10px;
 }
 header nav button {
-  background-color: #FF8552;
+  background-color: #ED9728;
   border-radius: 4px;
   font-size: 1.4rem;
   padding: 10px 30px;
@@ -234,7 +230,9 @@ footer a {
   display: flex;
   align-items: center;
   margin: 20px;
-  background: rgba(230, 230, 230, 0.5);
+  margin-bottom: 80px;
+  margin-top: 45px;
+  background: white;
   border: 2px solid #39393A;
   border-radius: 8px;
 }
@@ -246,8 +244,6 @@ footer a {
   border-radius: 4px;
   margin: 20px;
   padding: 20px;
-  background: rgba(255, 133, 82, 0.9);
-  box-shadow: 1px 2px;
 }
 .midcontent {
   display: flex;
@@ -262,7 +258,7 @@ footer a {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: #e6e6e6;
+  background: white;
 }
 .midcontent .card img {
   width: 100%;
@@ -277,8 +273,6 @@ footer a {
   border-radius: 4px;
   margin: 20px;
   padding: 15px;
-  background: rgba(255, 133, 82, 0.9);
-  box-shadow: 1px 2px;
 }
 .bottomcontent {
   display: flex;
@@ -287,8 +281,8 @@ footer a {
   justify-content: space-between;
   flex-direction: column;
   margin: 50px 20px;
+  background: white;
   border-radius: 8px;
-  background: #e6e6e6;
 }
 .bottomcontent h2 {
   margin-bottom: 20px;
@@ -299,8 +293,6 @@ footer a {
 }
 .bottomcontent p {
   border-radius: 4px;
-  box-shadow: 1px 2px;
   margin: 20px;
   padding: 15px;
-  background: rgba(255, 133, 82, 0.9);
 }
