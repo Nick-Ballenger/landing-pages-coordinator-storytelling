@@ -218,6 +218,18 @@ header img {
   width: 15%;
   height: 15%;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #39393A;
+}
+footer a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #39393A;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
 .banner {
   display: flex;
   align-items: center;
@@ -267,8 +279,15 @@ header img {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  margin: 20px;
+  margin: 50px 20px;
+  border-bottom: 2px solid #39393A;
   border: 2px solid #39393A;
   border-radius: 8px;
   background: rgba(230, 230, 230, 0.5);
+}
+.bottomcontent h2 {
+  margin-bottom: 20px;
+}
+.bottomcontent img {
+  margin-bottom: 35px;
 }
