@@ -1,5 +1,7 @@
 # Bountiful Children's Foundation Coordinator Storytelling Landing Pages
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09e668cc-a6e8-401f-937c-0a17e3eb4646/deploy-status)](https://app.netlify.com/sites/coordinator-storytelling-landing/deploys)
+
 ## Important Links
 - [REACT APP](https://coordinator-storytelling.netlify.com/)
 - [API](https://coordinator-storytelling-api.herokuapp.com/)
