@@ -1,7 +1,7 @@
-Main Color: 85FFC7
+Main Color: #85FFC7
 Accent Color:#ED9728
-secondary color:39393A
-Tertiary color:E6E6E6
+secondary color:#39393A
+Tertiary color:#E6E6E6
 
 Fonts
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">

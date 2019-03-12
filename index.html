@@ -10,19 +10,30 @@
 
     <title>Home</title>
   </head>
+  
   <body>
+      <script defer="defer" src="./JS/dropdownSerach.js"></script>
     <div class="container">
-    <header>
-       
-      <nav>
-          <img src="images/logo.png" alt="">
-          <a href="#">About Us</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <button>Login</button>
-      </nav>
-      <h1>Bountiful Children's Foundation</h1>
-    </header>
+    <header class="home">
+      <div class="navigationItems">
+          <img src="images/logo_transparent.png" alt="BCF Logo">
+          <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Search</button>
+              <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search" id="myInput" onkeyup="filterFunction()">
+                <a href="AboutUs.html">About Us</a>
+                <a href="#support">Support</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <a href="https://coordinator-storytelling.netlify.com/">Login</a>
+  
+  
+              </div>
+            </div>
+      </div>
+     
+          <h1>Bountiful Children's Foundation</h1>
+          </header>
     <section class="banner">
         <img src="images/LearningBanner.jpg" alt="bcf postcard"></img>
         <!-- <h2>Intro section</h2> -->
@@ -33,17 +44,18 @@
      
       <div class="midcontent">
         <div class="card">
-            <h2>Emotional Thing</h2>
+            <h2>Impact</h2>
             <img src="images/DoItForTheShorties.jpg" alt="educational symbols"></img>
             <p>Spicy jalapeno bacon ipsum dolor amet ground round biltong short loin beef shankle jerky salami cow bacon. Brisket strip steak cow jowl beef picanha chicken pig chuck buffalo tongue hamburger pastrami t-bone meatball. Beef corned beef biltong beef ribs. Shoulder alcatra ball tip pork belly spare ribs kevin sausage t-bone leberkas porchetta burgdoggen beef ribs. Venison jowl ribeye, beef salami spare ribs pastrami prosciutto beef ribs drumstick andouille jerky turkey. Shankle turducken landjaeger ground round shoulder, pastrami corned beef capicola kevin doner drumstick.</p>
             <button>Donate</button>
         </div>
         <div class="card">
-          <h2>Education</h2>
+          <h2>Human Stories</h2>
           <img src="images/woodworkingCharity.jpg" alt="Three impoverished children">
           <p>Spicy jalapeno bacon ipsum dolor amet ground round biltong short loin beef shankle jerky salami cow bacon. Brisket strip steak cow jowl beef picanha chicken pig chuck buffalo tongue hamburger pastrami t-bone meatball. Beef corned beef biltong beef ribs. Shoulder alcatra ball tip pork belly spare ribs kevin sausage t-bone leberkas porchetta burgdoggen beef ribs. Venison jowl ribeye, beef salami spare ribs pastrami prosciutto beef ribs drumstick andouille jerky turkey. Shankle turducken landjaeger ground round shoulder, pastrami corned beef capicola kevin doner drumstick.</p> 
           <button>Donate</button>
         </div>
+        
         
       </div>
       <div class="bottomcontent">
