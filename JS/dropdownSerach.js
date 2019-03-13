@@ -17,3 +17,5 @@ function myFunction() {
       }
     }
   }
+  const ptag = document.querySelectorAll('p');
+  console.log(ptag);
