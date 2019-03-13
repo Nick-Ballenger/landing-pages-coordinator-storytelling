@@ -7,6 +7,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+       
+        
+        
+        [data-tabs] {
+          display: flex;
+          background: #eee;
+          padding: 10px;
+          border: 2px solid #ccc;
+        }
+        [data-tabs] >* {
+          padding: 5px 20px;
+          cursor: pointer;
+        }
+        [data-tabs] .active {
+          background: #31a3e8;
+          color: #fff;
+          border-radius: 5px;
+        }
+        [data-panes] > * {
+          display: none;
+          border: 2px solid #ccc;
+          border-top: none;
+          padding: 20px;
+        }
+        [data-panes] > .active {
+          display: block;
+        }
+        </style>
 
     <title>Home</title>
   </head>
@@ -37,7 +66,7 @@
     <section class="banner">
         <img src="images/LearningBanner.jpg" alt="educational symbols"></img>
         <!-- <h2>Intro section</h2> -->
-        <p>At Bountiful Children's foundation we believe that knowledge is power, and our expert support team will be there to answer any questions you might have.</p>
+        <p>At Bountiful Children's foundation we believe that knowledge is power, and our expert support team will be there to answer any questions you might have every step of the way.</p>
     </section>
         
     
@@ -52,7 +81,7 @@
         <div class="card">
           <h2>Human Stories</h2>
           <img src="images/woodworkingCharity.jpg" alt="Three impoverished children">
-          <p>Stories are at the heart of the human condition, and with BCF you can turn your success stories into capital for future projects.</p> 
+          <p>Stories are at the heart of the human condition, they connect and define us.  With BCF you can turn your success stories into capital for future projects. Don't let these poweful motivators slip out of your grasp without being told.</p> 
           <button>Donate</button>
         </div>
         
@@ -61,15 +90,17 @@
       <div class="bottomcontent">
         <h2>Volunteering and Donations</h2>
         <img src="images/VolunteersSelfie.jpg" alt="three volunteers in a circle">
-        <p>Spicy jalapeno bacon ipsum dolor amet ground round biltong short loin beef shankle jerky salami cow bacon. Brisket strip steak cow jowl beef picanha chicken pig chuck buffalo tongue hamburger pastrami t-bone meatball. Beef corned beef biltong beef ribs. Shoulder alcatra ball tip pork belly spare ribs kevin sausage t-bone leberkas porchetta burgdoggen beef ribs. Venison jowl ribeye, beef salami spare ribs pastrami prosciutto beef ribs drumstick andouille jerky turkey. Shankle turducken landjaeger ground round shoulder, pastrami corned beef capicola kevin doner drumstick</p>
+        <p>Volunteers and coordinators are at the heart of your success, and we at BCF recognize that. So we've done everything we can to empower your team to create meaningful content that helps drive both website traffic and donations.</p>
         <button>Donate</button>
       </div>
       <footer>
-        <a href="#">About Us</a>
+        <a href="AboutUs.html">About Us</a>
         <a href="#">Contact</a>
         <a href="#">Blog</a>
         <p>Copyright BCF 2019</p>
       </footer>
     </div>
+   
+
   </body>
 </html>
