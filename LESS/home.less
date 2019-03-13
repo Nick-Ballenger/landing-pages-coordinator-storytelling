@@ -4,32 +4,33 @@
         flex-direction: column;
         border:none;
         margin:10px;
-        
-       
-
     }
-    display:flex;
-    // justify-content:center;
-    align-items:center;
-    // flex-wrap:wrap;
-   
+    @media(max-width: 800px){
+        width:95%;
+        flex-direction: column;
+        border:none;
+        margin:10px;
+    }
+   display:flex;
+   align-items:center;
    margin:20px;
    margin-bottom:80px;
    margin-top: 45px;
-    background:	white;
-    
-    border-radius:8px;
+   background:	white;
+   border-radius:8px;
     img{
         @media (max-width:500px){
+            width:95%;
+            margin:20px;
+        }
+        @media (max-width:800px){
             width:95%;
             margin:20px;
         }
         width:70%;
         height:70%;
     }
-    img:hover {
-        
-      }
+   
     p{
         // border: 2px solid #39393A;
         border-radius:4px;
@@ -46,9 +47,9 @@
     
 }
 .top{
-    display:flex;
-    justify-content:center; 
-    background: -moz-linear-gradient(181deg, rgba(133,255,199,1) 0%, rgba(133,255,199,1) 15%, rgba(237,151,40,1) 83%, rgba(237,151,40,1) 100%); /* ff3.6+ */
+ display:flex;
+justify-content:center; 
+background: -moz-linear-gradient(181deg, rgba(133,255,199,1) 0%, rgba(133,255,199,1) 15%, rgba(237,151,40,1) 83%, rgba(237,151,40,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(237,151,40,1)), color-stop(17%, rgba(237,151,40,1)), color-stop(85%, rgba(133,255,199,1)), color-stop(100%, rgba(133,255,199,1))); /* safari4+,chrome */
 background: -webkit-linear-gradient(181deg, rgba(133,255,199,1) 0%, rgba(133,255,199,1) 15%, rgba(237,151,40,1) 83%, rgba(237,151,40,1) 100%); /* safari5.1+,chrome10+ */
 background: -o-linear-gradient(181deg, rgba(133,255,199,1) 0%, rgba(133,255,199,1) 15%, rgba(237,151,40,1) 83%, rgba(237,151,40,1) 100%); /* opera 11.10+ */
@@ -62,7 +63,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED9728', end
 }
 .midcontent{
     @media(max-width: 500px){
-
         flex-direction:column;
         align-items:flex-start;
         justify-content:center;
@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED9728', end
     background-size: cover;
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:baseline;
     justify-content: space-between;
     flex-wrap:wrap;
     margin:20px;
@@ -176,12 +176,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED9728', end
         img{
             width:90%;
             margin:35px 20px;
-            
-           
         }
-        img:hover {
-           
-          }
+       
         p{
             // border: 2px solid #39393A;
             border-radius:4px;
