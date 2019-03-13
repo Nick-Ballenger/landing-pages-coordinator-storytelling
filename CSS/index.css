@@ -176,6 +176,11 @@ body {
     width: 450px;
   }
 }
+@media (max-width: 500px) {
+  html {
+    width: 450px;
+  }
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -187,7 +192,7 @@ header {
 }
 @media (max-width: 500px) {
   header {
-    flex-direction: column;
+    width: 450px;
   }
 }
 @media (max-width: 800px) {
@@ -199,11 +204,15 @@ header .navigationItems {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 30px 0;
+  padding-right: 40px;
 }
 @media (max-width: 500px) {
   header .navigationItems {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
   }
 }
 @media (max-width: 800px) {
@@ -216,6 +225,36 @@ header .navigationItems {
     display: none;
   }
 }
+header .navigationItems nav {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+@media (max-width: 500px) {
+  header .navigationItems nav {
+    flex-direction: column;
+    width: 450px;
+  }
+}
+header .navigationItems nav a {
+  margin: 50px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  background: #39393A;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+@media (max-width: 500px) {
+  header .navigationItems nav a {
+    text-align: center;
+    padding: 25px 0 25px 0;
+  }
+}
+header .navigationItems a:hover {
+  background: #ED9728;
+}
 header .navigationItems .dropbtn {
   background-color: #ED9728;
   color: white;
@@ -227,8 +266,8 @@ header .navigationItems .dropbtn {
 }
 @media (max-width: 500px) {
   header .navigationItems .dropbtn {
-    width: 100%;
-    padding: 15px 80px;
+    width: 450px;
+    font-size: 2rem;
     margin-bottom: 30px;
   }
 }
@@ -241,7 +280,7 @@ header .navigationItems .dropbtn {
 }
 header .navigationItems .dropbtn:hover,
 header .navigationItems .dropbtn:focus {
-  background-color: #85FFC7;
+  background-color: #39393A;
 }
 header .navigationItems #myInput {
   background-position: 14px 12px;
@@ -280,7 +319,10 @@ header .navigationItems .show {
   display: block;
 }
 header h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 header img {
   width: 15%;
@@ -384,7 +426,13 @@ footer p {
   /* ie6-9 */
 }
 .top img {
-  width: 50%;
+  width: 45%;
+  height: 45%;
+}
+@media (max-width: 500px) {
+  .top img {
+    display: none;
+  }
 }
 .midcontent {
   background-image: url("https://images.unsplash.com/photo-1476980162171-e1e1ba4b19d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");

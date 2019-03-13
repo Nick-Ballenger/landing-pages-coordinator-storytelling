@@ -7,36 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-       
-        
-        
-        [data-tabs] {
-          display: flex;
-          background: #eee;
-          padding: 10px;
-          border: 2px solid #ccc;
-        }
-        [data-tabs] >* {
-          padding: 5px 20px;
-          cursor: pointer;
-        }
-        [data-tabs] .active {
-          background: #31a3e8;
-          color: #fff;
-          border-radius: 5px;
-        }
-        [data-panes] > * {
-          display: none;
-          border: 2px solid #ccc;
-          border-top: none;
-          padding: 20px;
-        }
-        [data-panes] > .active {
-          display: block;
-        }
-        </style>
-
+    
     <title>Home</title>
   </head>
   
@@ -46,6 +17,12 @@
     <header class="home">
       <div class="navigationItems">
           <img src="images/logo.png" alt="BCF Logo">
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="https://coordinator-storytelling.netlify.com/">Login</a>
+          </nav>
+          
           <div class="dropdown">
               <button onclick="myFunction()" class="dropbtn">Search</button>
               <div id="myDropdown" class="dropdown-content">
@@ -101,6 +78,6 @@
       </footer>
     </div>
    
-
+    <script defer="defer" src="./JS/dropdownSerach.js"></script>
   </body>
 </html>
