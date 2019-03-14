@@ -17,6 +17,14 @@ function myFunction() {
       }
     }
   }
-  // const button = document.querySelectorAll('button')
-  // button.addEventListener('click' )
+  
+  const donate = document.querySelectorAll('.donate')
+  console.log(donate)
+ 
+
+  donate.forEach(function(element){
+    element.addEventListener('click',function(){
+      window.open('https://coordinator-storytelling.netlify.com/');
+    } )
+  })
   
